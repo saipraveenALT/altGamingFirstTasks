@@ -1,0 +1,126 @@
+*{
+  margin:0 ;
+  padding: 0;
+}
+ul{
+  padding:0;
+  margin: 0;
+}
+li{
+  list-style: none;
+}
+body{
+  background-color:white;
+  font-family: 'Open Sans', sans-serif;
+}
+.side-menu .top-section{
+  position: relative;
+}
+.side-menu{
+  position: fixed;
+  background-color: whitesmoke;
+  width: 300px;
+  height: 1000px;
+  box-sizing: border-box;
+  padding: 30px 10px;
+  transition: width .2s ease-in;
+}
+.side-menu.inactive{
+  width:70px ;
+}
+
+.side-menu .top-section .logos{
+
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  position: absolute;
+  display: inline-block;
+}
+.side-menu .top-section .back-arrow-btn{
+  color:black;
+  font-size: 24px;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  transform: translateY(10%)
+}
+.side-menu.side-menu.inactive .top-section .back-arrow-btn{
+  right:-50px;
+}
+.side-menu .top-section .search-bar{
+   color: white;
+   position: relative;
+}
+.search-btn{
+  position: absolute;
+  background-color: transparent;
+  border: 0;
+  font-size: 20px;
+  top: 6px;
+  padding:0 3px;
+}
+.side-menu .top-section .search-bar input[type=text]{
+  border: none;
+  outline: none;
+  height: 35px;
+  background-color:#333;
+  border-radius: 7px;
+  display: block;
+  margin: 20px 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left:50px;
+  color: white;
+}
+.side-menu .main-menu{
+  margin: 5px 0;
+}
+.side-menu .main-menu .menu-item{
+  color:#333;
+  text-decoration: none;
+  font-size:15px;
+  display: block;
+  font-weight: 600;
+  margin: 15px;
+  cursor: pointer;
+}
+.side-menu .main-menu .menu-item span{
+   display: inline-block;
+   line-height: 40px;
+   opacity: 1;
+   transition: opacity .2s ease-in;
+}
+.side-menu.inactive .main-menu .menu-item span{
+  opacity: 0;
+}
+.side-menu-footer{
+  width: 100%;
+  height: 10px;
+  background-color: black;
+}
+.divider{
+  width: 100%;
+  height: 1px;
+  border-radius: 1px;
+  background-color: black;
+}
+ 
+.container{
+  
+  margin-left:355px ;
+  padding-top: 10px;
+  transition: margin-left .2s ease-in;
+}
+.container.inactive{
+  margin-left: 120px;
+}
+.Title{
+  text-align: center;
+
+  background-color: #333;
+}
+.Title .name{
+     margin-left: 7%;
+     color: aqua;
+}
