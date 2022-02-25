@@ -4,49 +4,7 @@
       "title": "Edited",
       "userId": "new Id",
       "body": "new user body",
-      "id": 27
-    },
-    {
-      "userId": -1,
-      "body": "demoBody",
-      "title": "demo_Title",
-      "id": 30
-    },
-    {
-      "userId": -1,
-      "body": "demoBody",
-      "title": "demo_Title",
-      "id": 31
-    },
-    {
-      "userId": -1,
-      "body": "demoBody",
-      "title": "demo_Title",
-      "id": 32
-    },
-    {
-      "title": "Edited",
-      "userId": "new Id",
-      "body": "new user body",
-      "id": 33
-    },
-    {
-      "userId": -1,
-      "body": "demoBody",
-      "title": "demo_Title",
-      "id": 34
-    },
-    {
-      "userId": "sffsgg",
-      "title": "sgsagsag",
-      "body": "any",
-      "id": 37
-    },
-    {
-      "userId": "12312",
-      "title": "123123",
-      "body": "any",
-      "id": 38
+      "id": 1
     }
   ]
 }
