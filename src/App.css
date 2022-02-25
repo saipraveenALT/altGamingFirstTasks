@@ -124,3 +124,27 @@ body{
      margin-left: 7%;
      color: aqua;
 }
+
+* {
+  color: rgb(63, 52, 52);
+}
+
+form{
+  margin-left: 23%;
+}
+input{
+  height: 25px;
+  width: 200px;
+  border: 2px solid pink;
+  margin: 5px;
+}
+
+input:active[type=submit] {
+  border: 2px solid darkorchid;
+  color: white;
+  background-color: rgb(57, 190, 150);
+}
+
+input:focus {
+  border : 2px solid salmon;
+}

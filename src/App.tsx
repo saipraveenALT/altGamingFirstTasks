@@ -7,7 +7,7 @@ import {
   Link,
   BrowserRouter,
   Routes,
-}from "react-router-dom";
+}from "react-router-dom"; 
 import Title from './Components/title';
 import Content from './Components/Content';
 import Design from './Components/Design';
