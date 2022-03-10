@@ -125,13 +125,16 @@ body{
      color: aqua;
 }
 
-* {
-  color: rgb(63, 52, 52);
-}
 
 form{
-  margin-left: 23%;
+  margin-left: 17vw;
+  /* border: 2px solid violet; */
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
+
 input{
   height: 25px;
   width: 200px;

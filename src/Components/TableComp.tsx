@@ -1,5 +1,6 @@
 import "./TableComp.css"
 import {delApi, putApi }from '../service/RestApiCalls'
+import { toast } from "react-toastify";
 
 function TableComp(props: any) {
     const url = "http://localhost:3030/info";
@@ -7,6 +8,7 @@ function TableComp(props: any) {
         const newData = props.data.filter((dt: any) => dt.id !== id);
         props.setData(newData);
         delApi(url,id);
+        toast.success("deleted");
     }
     
     const handleEdit = (id: any,i: any) => {
